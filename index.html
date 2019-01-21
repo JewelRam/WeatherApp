@@ -1,20 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>Weather Application</title>
 
-    <title>FreightWise Programming Test</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> -->
 
-    <script>
+<!-- link for referencing our css -->
+    <link rel="stylesheet" href="main.css">
 
-</script>
 
 </head>
-<body>
-    <div class="test-results"></div>
 
-    <div class="button-container"></div>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="search">
+                <!-- input for search -->
+                <input type="text" placeholder="Enter City Name" id="search-txt">
+                <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
+            </div>
+        </header>
+
+        <main id="main">
+<!-- div for all the city info -->
+            <div class="city-icon">
+                <div class="city-icon-holder">
+                    <div id="city-name"></div>
+                    <img src="" alt="" id="icon">
+                    <h4 id="descript"></h4>
+                </div>
+            </div>
+<!-- div for all the temperature info -->
+            <div class="temperature">
+                <h4 id="temper">Temperature</h4>
+                <div id="temp"></div>
+            </div>
+<!-- div for humidity info -->
+            <div class="humidity">
+                <h4 id="hum">Humidity</h4>
+
+                <div id="humidity-div"></div>
+            </div>
+
+            <!-- <div class="coord">
+                    <h4 id="coord">Coordinates</h4>
+                    <div id="coord-div"></div>
+
+                </div> -->
+
+        </main>
+
+    </div>
+    <!-- script tag for using fon tawesome -->
+    <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+
+
+<!-- script for referencing our javascript -->
+    <script src="WeatherApp.js"></script>
+
+
 
 </body>
+
 </html>
