@@ -9,7 +9,7 @@ body{
     border-radius: 25px;
     box-shadow: 0 20px 40px 0px rgba(0,0,0,0.3)
   }
-  
+
   .header {
     height: 20%;
     background-color: rgb(139, 156, 233);
@@ -53,6 +53,7 @@ margin: 5px;
     font-weight: bold;
     color: #fff;
   }
+  
   
   #icon {
     width:50%;
