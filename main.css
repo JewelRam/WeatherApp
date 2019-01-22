@@ -18,7 +18,16 @@ body{
     text-align: center;
     position:relative;
   }
-  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .center:hover {
+    content: url("https://media.giphy.com/media/dEdmW17JnZhiU/200.gif");
+}
+ 
+
   #temp, #humidity-div {
     font-family: "Courier New";
     font-weight: bold;

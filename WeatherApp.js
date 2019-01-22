@@ -14,7 +14,6 @@ let descript = document.getElementById("descript");
 // added event listeners to seach and on an "enter" click
 searchButton.addEventListener("click", findWeatherDetails);
 searchInput.addEventListener("keyup", enterPressed);
-gifButton.addEventListener("click", enterPressed);
 //funciton that loads the info once the search is entered
 function enterPressed(event) {
     if (event.key === "Enter") {
